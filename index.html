@@ -12,35 +12,43 @@
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 <style>
-  h1{
-  text-align: center;
-}
-.s1{
-  background-color: grey;
-}
-.s2{
-  background-image: url("https://images.pexels.com/photos/772650/pexels-photo-772650.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-}
+  h1 {
+    text-align: center;
+  }
+
+  .s1 {
+    background-color: grey;
+  }
+
+  .s2 {
+    background-image: url("https://images.pexels.com/photos/772650/pexels-photo-772650.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  }
 </style>
 
 <body>
   <div id="fullpage">
-    <div class="section s1"><h1>Slide1</h1></div>
-    <div class="section s2"><h1>Slide2</h1></div>
-    <div class="section s3"><h1>Slide3</h1></div>
+    <div class="section s1">
+      <h1>Slide1</h1>
+    </div>
+    <div class="section s2">
+      <h1>Slide2</h1>
+    </div>
+    <div class="section s3">
+      <h1>Slide3</h1>
+    </div>
   </div>
-  
+
   <script>
     new fullpage('#fullpage', {
       //options here
       autoScrolling: true,
-     
+
     });
 
 
     //methods
     fullpage_api.setAllowScrolling(true);
-    
+
   </script>
 </body>
 
