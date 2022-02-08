@@ -15,7 +15,7 @@
 
 * how to set it up? Read the instructions,for cdn setup. 
 * Did not understood, then found this youtub video [DasignCourse](https://www.youtube.com/watch?v=IeZSN6lWsWM)
-* was not using proper link
+* was not using proper link in html
 
 ## Demo
 
