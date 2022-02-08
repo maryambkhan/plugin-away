@@ -6,7 +6,9 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.css"
     integrity="sha512-4rPgyv5iG0PZw8E+oRdfN/Gq+yilzt9rQ8Yci2jJ15rAyBmF0HBE4wFjBkoB72cxBeg63uobaj1UcNt/scV93w=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-  
+
+  <link rel="stylesheet" href="/plugin-away/css/main.css">
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js"
     integrity="sha512-gSf3NCgs6wWEdztl1e6vUqtRP884ONnCNzCpomdoQ0xXsk06lrxJsR7jX5yM/qAGkPGsps+4bLV5IEjhOZX+gg=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -14,15 +16,10 @@
 
 <body>
   <div id="fullpage">
-    <div class="section">Section 1
-      <li>slide 1</li>
-      <li>slide 2</li>
-      <li>slide 3</li>
-    </div>
-    <div class="section">Section 2</div>
+    <div class="section s1"><h1>Plugin Away</h1></div>
+    <div class="section s2"></div>
     <div class="section">Section 3</div>
   </div>
-  
   
   <script>
     new fullpage('#fullpage', {
@@ -30,6 +27,7 @@
       autoScrolling: true,
      
     });
+
 
     //methods
     fullpage_api.setAllowScrolling(true);
